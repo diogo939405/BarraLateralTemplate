@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.sideBar{
+   color: #fff;
+   margin: -1vh -0.45vw;
+   
+}
+
+.menu-bar{
+   height: 88vh;
+   display: flex;
+   flex-direction: column;
+   margin-top: 2em;
+   gap: 15px;
+   font-size: 0.8rem;
+   position: relative;
+}
+
+.button-show{
+   font-size: 1.2rem;
+   color: #fff;
+}
+
+.corpo-botoes{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   padding-bottom: 10px;
+ 
+}
+.botoes{
+   display: flex;
+   gap: 0.7vw; /* Espaçamento de 20px entre os botões */
+   margin-top: -25vh;
+}
+.bot-body{
+   width: 3vw;
+   font-size: 1rem;
+   font-weight: 500;
+   width: 90%;
+   padding: 5px 2px 4px 2px;
+   border-radius: 7px;
+   outline: none;
+   border: solid 1px #fffffff3;
+   cursor: pointer;
+   opacity: 1;
+    transition: opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), margin 0.3s, color 0.3s;
+   background-color: #0321631a; 
+   color: #ffffffb9;
+   height: 3vh;
+   width: 5vw;
+   letter-spacing: 1px;
+   font-family: 'montserrat';
+}
+
+   .bot-body:hover{
+      background-color: #032163;
+      color: #fff;
+   }
+
+   .content{
+     
+   }
