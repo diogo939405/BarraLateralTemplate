@@ -104,7 +104,7 @@ export default function MenuAtivo() {
               {!collapsed ? (
             <div className="corpo-botoes">
               <div className="botoes">
-                <button className="bot-body" onClick={() => handleMenuChange('admin')}>Admin</button>
+                <button className="bot-body" onClick={() => handleMenuChange('admin')}>Adddddmin</button>
                 <button className="bot-body" onClick={() => handleMenuChange('user')}>Usuário</button>
                 
               </div>
